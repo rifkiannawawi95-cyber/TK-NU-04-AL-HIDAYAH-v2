@@ -6,6 +6,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +24,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if ($this->app->environment('production') || str_contains(request()->getHost(), 'vercel.app')) {
+            URL::forceScheme('https');
+        }
         // 1. Pastikan direktori media storage publik tersedia otomatis
         try {
             $mediaFolders = ['galeri', 'acara', 'prestasi', 'gurus', 'settings'];
