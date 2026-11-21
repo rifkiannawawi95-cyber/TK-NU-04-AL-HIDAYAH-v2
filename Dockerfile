@@ -3,7 +3,7 @@
 # Stage 1: Build Frontend Assets (Vite & Tailwind)
 FROM node:20-alpine AS frontend-builder
 WORKDIR /app
-COPY package*.json vite.config.js ./
+COPY package.json vite.config.js ./
 RUN npm install
 COPY resources/ ./resources/
 COPY public/ ./public/

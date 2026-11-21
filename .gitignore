@@ -28,16 +28,6 @@ aiven-data-import.sql
 powershell.bat
 migrate-aiven.bat
 *.bat
-nul
-debug_images*.php
-test_photo.php
-check_settings.php
-dump()
-count()
-getStatusCode()
-now()])
-toArray())
-get('content-type')
 _ide_helper.php
 Homestead.json
 Homestead.yaml
