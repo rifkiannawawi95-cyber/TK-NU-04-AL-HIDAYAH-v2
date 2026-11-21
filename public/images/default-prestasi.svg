@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="prestasiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="50%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="trophyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#78350f" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" fill="url(#prestasiBg)"/>
+  
+  <circle cx="90" cy="90" r="120" fill="#f59e0b" fill-opacity="0.08"/>
+  <circle cx="510" cy="360" r="150" fill="#f59e0b" fill-opacity="0.08"/>
+
+  <!-- Center Card -->
+  <rect x="130" y="70" width="340" height="310" rx="32" fill="#ffffff" fill-opacity="0.94" stroke="#f59e0b" stroke-opacity="0.25" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Trophy Circle Container -->
+  <circle cx="300" cy="180" r="54" fill="url(#trophyGrad)"/>
+
+  <!-- Trophy Graphic -->
+  <g fill="#ffffff" transform="translate(272, 148) scale(1.1)">
+    <path d="M12 8 L40 8 C40 22 34 29 26 31 C18 29 12 22 12 8 Z" fill="#ffffff"/>
+    <path d="M12 11 C6 11 6 22 13 22" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M40 11 C46 11 46 22 39 22" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M26 31 L26 40" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <rect x="16" y="40" width="20" height="6" rx="3" fill="#ffffff"/>
+    <circle cx="26" cy="19" r="4" fill="#d97706"/>
+  </g>
+
+  <!-- Text -->
+  <text x="300" y="280" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="18" font-weight="800" fill="#78350f" text-anchor="middle">
+    TK NU 04 SITUBONDO
+  </text>
+  <text x="300" y="306" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="600" fill="#b45309" text-anchor="middle">
+    Prestasi Santri Cilik
+  </text>
+  <rect x="235" y="325" width="130" height="24" rx="12" fill="#f59e0b" fill-opacity="0.15"/>
+  <text x="300" y="341" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#92400e" text-anchor="middle">
+    Juara & Kebanggaan
+  </text>
+</svg>
+

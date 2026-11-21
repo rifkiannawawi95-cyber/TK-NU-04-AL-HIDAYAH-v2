@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="acaraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="50%" stop-color="#d1fae5"/>
+      <stop offset="100%" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <linearGradient id="acaraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00875A"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#064e3b" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" fill="url(#acaraBg)"/>
+  
+  <!-- Subtle Rings -->
+  <circle cx="80" cy="80" r="100" fill="#059669" fill-opacity="0.06"/>
+  <circle cx="520" cy="370" r="140" fill="#059669" fill-opacity="0.06"/>
+  <circle cx="500" cy="90" r="12" fill="url(#goldGrad)" fill-opacity="0.8"/>
+
+  <!-- Center Card -->
+  <rect x="130" y="70" width="340" height="310" rx="32" fill="#ffffff" fill-opacity="0.92" stroke="#10b981" stroke-opacity="0.2" stroke-width="2" filter="url(#softShadow)"/>
+
+  <!-- Calendar Icon Container -->
+  <circle cx="300" cy="180" r="54" fill="url(#acaraGrad)"/>
+
+  <!-- Calendar Graphic -->
+  <g fill="#ffffff" transform="translate(272, 150) scale(1.05)">
+    <rect x="2" y="6" width="50" height="46" rx="8" fill="#ffffff" opacity="0.95"/>
+    <path d="M2 18 L52 18" stroke="#047857" stroke-width="4"/>
+    <rect x="10" y="2" width="6" height="8" rx="2" fill="#f59e0b"/>
+    <rect x="38" y="2" width="6" height="8" rx="2" fill="#f59e0b"/>
+    <circle cx="16" cy="27" r="3" fill="#00875A"/>
+    <circle cx="27" cy="27" r="3" fill="#00875A"/>
+    <circle cx="38" cy="27" r="3" fill="#00875A"/>
+    <circle cx="16" cy="37" r="3" fill="#00875A"/>
+    <circle cx="27" cy="37" r="3" fill="#00875A"/>
+    <circle cx="38" cy="37" r="3" fill="#f59e0b"/>
+  </g>
+
+  <!-- Text -->
+  <text x="300" y="280" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="18" font-weight="800" fill="#064e3b" text-anchor="middle">
+    TK NU 04 SITUBONDO
+  </text>
+  <text x="300" y="306" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="600" fill="#059669" text-anchor="middle">
+    Agenda & Acara Kegiatan
+  </text>
+  <rect x="235" y="325" width="130" height="24" rx="12" fill="#064e3b" fill-opacity="0.08"/>
+  <text x="300" y="341" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#047857" text-anchor="middle">
+    Dokumentasi Acara
+  </text>
+</svg>
+
