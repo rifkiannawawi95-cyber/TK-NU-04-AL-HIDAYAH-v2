@@ -6,15 +6,16 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Admin;
 use App\Http\Controllers\User;
 
-// Public Routes
-
-Route::get('/', [PublicController::class, 'home']);
-Route::get('/profil', [PublicController::class, 'profil']);
-Route::get('/acara', [PublicController::class, 'acara']);
-Route::get('/prestasi', [PublicController::class, 'prestasi']);
-Route::get('/galeri', [PublicController::class, 'galeri']);
-Route::get('/kalender-akademik', [PublicController::class, 'kalender']);
-Route::get('/kontak', [PublicController::class, 'kontak']);
+// Public Routes with Vercel Edge CDN Caching
+Route::middleware([\App\Http\Middleware\VercelEdgeCache::class])->group(function () {
+    Route::get('/', [PublicController::class, 'home']);
+    Route::get('/profil', [PublicController::class, 'profil']);
+    Route::get('/acara', [PublicController::class, 'acara']);
+    Route::get('/prestasi', [PublicController::class, 'prestasi']);
+    Route::get('/galeri', [PublicController::class, 'galeri']);
+    Route::get('/kalender-akademik', [PublicController::class, 'kalender']);
+    Route::get('/kontak', [PublicController::class, 'kontak']);
+});
 Route::post('/testimoni', [PublicController::class, 'storeTestimoni'])->middleware('throttle:5,1')->name('testimoni.store');
 
 // Route fallback untuk menyajikan file storage publik (solusi symlink Windows/Laragon)
