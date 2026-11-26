@@ -3,10 +3,10 @@
 @section('content')
 
 <!-- 1. Hero Section (Modern Minimalist Layout & Clean Whitespace) -->
-<section class="relative bg-gradient-to-b from-[#f0fdf4] via-[#f8fafc] to-white pt-10 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
+<section class="relative bg-gradient-to-b from-emerald-50/60 via-slate-50/40 to-white pt-10 pb-16 lg:pt-16 lg:pb-24 overflow-hidden">
     <!-- Ambient Background Blur Accent -->
-    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-emerald-200/40 rounded-full blur-3xl pointer-events-none"></div>
-    <div class="absolute bottom-10 left-10 w-72 h-72 bg-amber-200/30 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-0 right-0 -mr-24 -mt-24 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-10 left-10 w-80 h-80 bg-amber-200/25 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
@@ -14,18 +14,18 @@
             <!-- Left Hero Text & CTA -->
             <div class="lg:col-span-7 text-center lg:text-left" data-aos="fade-right">
                 <!-- Nu LP Maarif Minimal Badge -->
-                <div class="inline-flex items-center gap-2 bg-emerald-100/90 border border-emerald-200/80 px-4 py-1.5 rounded-full text-[#005A3C] text-xs font-black tracking-wider uppercase mb-6 shadow-xs">
-                    <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
-                    LP MA'ARIF NU CABANG SITUBONDO
+                <div class="inline-flex items-center gap-2 bg-emerald-100/90 border border-emerald-300/60 px-4 py-1.5 rounded-full text-emerald-900 text-xs font-black tracking-wider uppercase mb-6 shadow-xs">
+                    <span class="w-2 h-2 rounded-full bg-emerald-600 animate-ping"></span>
+                    <span>LP MA'ARIF NU CABANG SITUBONDO</span>
                 </div>
                 
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-[#0f3c2b] tracking-tight leading-[1.12] mb-6">
-                    Tempat Ceria <span class="text-[#00875A]">Tumbuh</span>, <br class="hidden sm:inline" />
-                    Belajar &amp; <span class="text-[#f59e0b]">Berprestasi</span>
+                <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-[#0f3c2b] tracking-tight leading-[1.14] mb-6">
+                    Tempat Ceria <span class="text-emerald-700">Tumbuh</span>, <br class="hidden sm:inline" />
+                    Belajar &amp; <span class="bg-gradient-to-r from-emerald-700 via-teal-600 to-amber-500 bg-clip-text text-transparent">Berakhlakul Karimah</span>
                 </h1>
 
-                <p class="text-base sm:text-lg text-slate-600 mb-8 max-w-xl leading-relaxed font-medium mx-auto lg:mx-0">
-                    Membina potensi emas anak usia dini dengan kasih sayang, metode bermain sambil belajar yang menyenangkan, serta nilai-nilai akhlak mulia Ahlussunnah wal Jama'ah.
+                <p class="text-base sm:text-lg text-slate-600 mb-8 max-w-xl leading-relaxed font-normal mx-auto lg:mx-0">
+                    Membina potensi emas anak usia dini dengan kasih sayang, metode bermain sambil belajar yang menyenangkan, serta penanaman akhlak mulia berhaluan Ahlussunnah wal Jama'ah An-Nahdliyah.
                 </p>
 
                 <!-- Modern Minimalist Action Buttons -->
@@ -33,54 +33,54 @@
                     <!-- CTA Button Pendaftaran -->
                     <a href="https://wa.me/6285334766072?text=Halo%20Admin%20TK%20NU%2004%20Situbondo,%20saya%20ingin%20konsultasi%20informasi%20pendaftaran%20siswa%20baru." 
                        target="_blank" 
-                       class="inline-flex items-center gap-2.5 bg-[#00875A] hover:bg-[#006F4A] text-white font-extrabold px-7 py-4 rounded-3xl text-sm sm:text-base shadow-lg shadow-emerald-900/20 hover:shadow-xl transition-all transform hover:-translate-y-0.5 group">
-                        <i class="fab fa-whatsapp text-lg text-emerald-200"></i>
-                        <span>Daftar / Info Pendaftaran</span>
+                       class="inline-flex items-center gap-2.5 bg-gradient-to-r from-emerald-700 via-emerald-800 to-teal-900 hover:from-emerald-800 hover:to-teal-950 text-white font-black px-7 py-4 rounded-full text-sm sm:text-base shadow-lg shadow-emerald-900/20 hover:shadow-xl transition-all transform hover:-translate-y-0.5 group">
+                        <i class="fab fa-whatsapp text-lg text-emerald-300 group-hover:scale-110 transition-transform"></i>
+                        <span>Info Pendaftaran / PPDB</span>
                         <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
                     </a>
 
                     <!-- Secondary Explore Button -->
                     <a href="/profil" 
-                       class="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 border-2 border-slate-200 hover:border-emerald-300 font-extrabold px-6 py-4 rounded-3xl text-sm sm:text-base transition-all shadow-xs">
-                        <i class="fas fa-school text-[#00875A]"></i>
-                        <span>Jelajahi Profil</span>
+                       class="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 border-2 border-slate-200 hover:border-emerald-400 font-black px-6 py-4 rounded-full text-sm sm:text-base transition-all shadow-xs hover:shadow-sm">
+                        <i class="fas fa-school text-emerald-700"></i>
+                        <span>Jelajahi Profil &amp; Fasilitas</span>
                     </a>
                 </div>
 
                 <!-- Trust Points -->
-                <div class="mt-8 pt-6 border-t border-slate-200/60 flex items-center justify-center lg:justify-start gap-6 text-xs text-slate-500 font-bold">
-                    <span class="flex items-center gap-1.5"><i class="fas fa-certificate text-emerald-600"></i> Terakreditasi Baik</span>
-                    <span class="flex items-center gap-1.5"><i class="fas fa-shield-heart text-amber-500"></i> Lingkungan Ramah Anak</span>
-                    <span class="flex items-center gap-1.5"><i class="fas fa-mosque text-teal-600"></i> Pembiasaan Islami</span>
+                <div class="mt-8 pt-6 border-t border-slate-200/70 flex flex-wrap items-center justify-center lg:justify-start gap-4 sm:gap-6 text-xs text-slate-500 font-bold">
+                    <span class="flex items-center gap-1.5 bg-white/80 px-3 py-1.5 rounded-full border border-slate-200/60 shadow-2xs"><i class="fas fa-check-circle text-emerald-600"></i> Terdaftar Resmi</span>
+                    <span class="flex items-center gap-1.5 bg-white/80 px-3 py-1.5 rounded-full border border-slate-200/60 shadow-2xs"><i class="fas fa-tree text-teal-600"></i> Tanah Sendiri 1.475 m²</span>
+                    <span class="flex items-center gap-1.5 bg-white/80 px-3 py-1.5 rounded-full border border-slate-200/60 shadow-2xs"><i class="fas fa-mosque text-amber-500"></i> Pembiasaan Islami</span>
                 </div>
             </div>
 
             <!-- Right Hero Photo Banner -->
             <div class="lg:col-span-5 flex justify-center" data-aos="fade-left" data-aos-delay="100">
                 <div class="relative w-full max-w-md">
-                    <!-- Decorative Golden Ring -->
-                    <div class="absolute -top-4 -left-4 w-24 h-24 rounded-3xl bg-amber-400/20 -z-10 rotate-6"></div>
-                    <div class="absolute -bottom-4 -right-4 w-28 h-28 rounded-3xl bg-emerald-400/20 -z-10 -rotate-6"></div>
+                    <!-- Decorative Golden & Emerald Ring Accents -->
+                    <div class="absolute -top-4 -left-4 w-28 h-28 rounded-3xl bg-amber-400/20 -z-10 rotate-6 blur-xs"></div>
+                    <div class="absolute -bottom-4 -right-4 w-32 h-32 rounded-3xl bg-emerald-400/20 -z-10 -rotate-6 blur-xs"></div>
 
-                    <!-- Main Image Frame -->
+                    <!-- Main Image Frame with Bento Border -->
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white group">
                         <img src="{{ \App\Models\SchoolSetting::getPhoto('hero_image', 'img/hero_kids.jpg') }}" 
                              alt="Santri Cilik TK NU 04 SITUBONDO" 
-                             class="w-full h-80 sm:h-[400px] object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                             class="w-full h-80 sm:h-[420px] object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                              onerror="this.onerror=null;this.src='{{ asset('images/default-galeri.svg') }}';">
                         
                         <!-- Floating Pill Badge -->
-                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-lg border border-slate-100 flex items-center justify-between">
-                            <div class="flex items-center gap-2.5">
-                                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-lg">
-                                    <i class="fas fa-smile-beam"></i>
+                        <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white flex items-center justify-center text-lg shadow-sm">
+                                    <i class="fas fa-shapes"></i>
                                 </div>
                                 <div>
-                                    <p class="text-[10px] font-black uppercase tracking-wider text-slate-400">Pembelajaran Kreatif</p>
-                                    <p class="text-xs font-black text-slate-800">Ceria &amp; Berkarakter</p>
+                                    <p class="text-[10px] font-black uppercase tracking-wider text-slate-400">Pendidikan Berkarakter</p>
+                                    <p class="text-xs font-black text-slate-800">Ceria, Cerdas &amp; Mandiri</p>
                                 </div>
                             </div>
-                            <span class="px-2.5 py-1 rounded-full text-[10px] font-extrabold bg-amber-100 text-amber-800">
+                            <span class="px-3 py-1 rounded-full text-[11px] font-black bg-amber-100 text-amber-900 border border-amber-200">
                                 TK NU 04
                             </span>
                         </div>
@@ -92,58 +92,58 @@
     </div>
 </section>
 
-<!-- 2. Minimalist Stat Counters (Clean Badge Counter) -->
+<!-- 2. Minimalist Stat Counters (Clean Bento Counter) -->
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-20" data-aos="fade-up">
-    <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 p-6 sm:p-8 grid grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="bg-white rounded-3xl shadow-xl shadow-emerald-950/5 border border-slate-100 p-6 sm:p-8 grid grid-cols-2 lg:grid-cols-4 gap-6">
         
         <!-- Stat 1: Total Siswa -->
-        <div class="flex items-center gap-4">
-            <div class="w-13 h-14 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center rounded-xl shadow-lg">
-                <i class="fas fa-users"></i>
+        <div class="flex items-center gap-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 border border-emerald-100 flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform shadow-xs">
+                <i class="fas fa-children"></i>
             </div>
             <div>
                 <p class="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mb-0.5">Siswa Terdaftar</p>
-                <p class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+                <p class="font-display text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
                     {{ $totalSiswa }} <span class="text-xs text-slate-400 font-bold">Anak</span>
                 </p>
             </div>
         </div>
 
         <!-- Stat 2: Pengajar & Guru -->
-        <div class="flex items-center gap-4">
-            <div class="w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center text-2xl flex-shrink-0 shadow-inner">
+        <div class="flex items-center gap-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-700 border border-teal-100 flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform shadow-xs">
                 <i class="fas fa-chalkboard-user"></i>
             </div>
             <div>
                 <p class="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mb-0.5">Tenaga Pendidik</p>
-                <p class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+                <p class="font-display text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
                     {{ $totalGuru }} <span class="text-xs text-slate-400 font-bold">Guru</span>
                 </p>
             </div>
         </div>
 
         <!-- Stat 3: Prestasi -->
-        <div class="flex items-center gap-4">
-            <div class="w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-amber-50 text-amber-600 border border-amber-100 flex items-center justify-center text-2xl flex-shrink-0 shadow-inner">
+        <div class="flex items-center gap-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-600 border border-amber-100 flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform shadow-xs">
                 <i class="fas fa-trophy"></i>
             </div>
             <div>
                 <p class="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mb-0.5">Prestasi Diraih</p>
-                <p class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+                <p class="font-display text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
                     {{ $totalPrestasi }} <span class="text-xs text-slate-400 font-bold">Piala</span>
                 </p>
             </div>
         </div>
 
         <!-- Stat 4: Kegiatan -->
-        <div class="flex items-center gap-4">
-            <div class="w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-teal-50 text-teal-600 border border-teal-100 flex items-center justify-center text-2xl flex-shrink-0 shadow-inner">
+        <div class="flex items-center gap-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 border border-emerald-100 flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform shadow-xs">
                 <i class="fas fa-calendar-check"></i>
             </div>
             <div>
-                <p class="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mb-0.5">Agenda Kegiatan</p>
-                <p class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
-                    {{ $totalAcara }} <span class="text-xs text-slate-400 font-bold">Acara</span>
+                <p class="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 mb-0.5">Agenda &amp; Acara</p>
+                <p class="font-display text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+                    {{ $totalAcara }} <span class="text-xs text-slate-400 font-bold">Kegiatan</span>
                 </p>
             </div>
         </div>
@@ -171,82 +171,86 @@
         <!-- 4 Core Pillars Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             <!-- Pillar 1: Tahfidz & Doa -->
-            <div class="bg-gradient-to-b from-emerald-50/50 to-white p-7 rounded-3xl border border-emerald-100/80 shadow-xs hover:shadow-xl transition-all duration-300 group hover:-translate-y-1" data-aos="fade-up" data-aos-delay="0">
-                <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-2xl mb-5 shadow-lg shadow-emerald-600/30 group-hover:scale-110 transition-transform">
+            <div class="relative bg-white p-7 rounded-3xl border border-emerald-100 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1.5 overflow-hidden" data-aos="fade-up" data-aos-delay="0">
+                <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-emerald-500 to-teal-400"></div>
+                <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center text-2xl mb-5 shadow-xs group-hover:scale-110 transition-transform border border-emerald-100">
                     <i class="fas fa-quran"></i>
                 </div>
-                <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-emerald-700 transition-colors">
+                <h3 class="font-display text-lg font-black text-slate-800 mb-2 group-hover:text-emerald-700 transition-colors">
                     Tahfidz &amp; Doa Harian
                 </h3>
-                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-                    Hafalan surat pendek Juz Amma, doa harian, dan sholawat nabi dengan metode murottal yang ceria dan mudah diingat.
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Bimbingan hafalan surat pendek Juz Amma, doa harian, dan sholawat nabi dengan metode murottal yang ceria dan mudah diingat.
                 </p>
             </div>
 
             <!-- Pillar 2: Sholat & Karakter Aswaja -->
-            <div class="bg-gradient-to-b from-teal-50/50 to-white p-7 rounded-3xl border border-teal-100/80 shadow-xs hover:shadow-xl transition-all duration-300 group hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
-                <div class="w-14 h-14 rounded-2xl bg-teal-600 text-white flex items-center justify-center text-2xl mb-5 shadow-lg shadow-teal-600/30 group-hover:scale-110 transition-transform">
+            <div class="relative bg-white p-7 rounded-3xl border border-teal-100 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1.5 overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-teal-500 to-emerald-400"></div>
+                <div class="w-14 h-14 rounded-2xl bg-teal-50 text-teal-700 flex items-center justify-center text-2xl mb-5 shadow-xs group-hover:scale-110 transition-transform border border-teal-100">
                     <i class="fas fa-mosque"></i>
                 </div>
-                <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-teal-700 transition-colors">
+                <h3 class="font-display text-lg font-black text-slate-800 mb-2 group-hover:text-teal-700 transition-colors">
                     Praktik Ibadah &amp; Adab
                 </h3>
-                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-                    Pembiasaan wudhu, sholat dhuha cilik, adab makan, serta penanaman akhlak mulia Ahlussunnah wal Jama'ah sejak dini.
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Pembiasaan wudhu, sholat dhuha berjamaah, adab santri, serta penanaman akhlak mulia Ahlussunnah wal Jama'ah sejak dini.
                 </p>
             </div>
 
             <!-- Pillar 3: Kreativitas & Motorik Emas -->
-            <div class="bg-gradient-to-b from-amber-50/50 to-white p-7 rounded-3xl border border-amber-100/80 shadow-xs hover:shadow-xl transition-all duration-300 group hover:-translate-y-1" data-aos="fade-up" data-aos-delay="200">
-                <div class="w-14 h-14 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-2xl mb-5 shadow-lg shadow-amber-500/30 group-hover:scale-110 transition-transform">
+            <div class="relative bg-white p-7 rounded-3xl border border-amber-100 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1.5 overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-orange-400"></div>
+                <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-2xl mb-5 shadow-xs group-hover:scale-110 transition-transform border border-amber-100">
                     <i class="fas fa-palette"></i>
                 </div>
-                <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-amber-700 transition-colors">
+                <h3 class="font-display text-lg font-black text-slate-800 mb-2 group-hover:text-amber-700 transition-colors">
                     Kreativitas &amp; Seni
                 </h3>
-                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-                    Melukis, mewarnai, kerajinan tangan, dan eksplorasi motorik halus yang melatih fokus serta imajinasi kreatif ananda.
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Melukis, kerajinan tangan, musik edukatif, dan eksplorasi motorik halus yang melatih fokus serta imajinasi kreatif ananda.
                 </p>
             </div>
 
             <!-- Pillar 4: Lingkungan Aman 1.475 m² -->
-            <div class="bg-gradient-to-b from-blue-50/50 to-white p-7 rounded-3xl border border-blue-100/80 shadow-xs hover:shadow-xl transition-all duration-300 group hover:-translate-y-1" data-aos="fade-up" data-aos-delay="300">
-                <div class="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-2xl mb-5 shadow-lg shadow-blue-600/30 group-hover:scale-110 transition-transform">
+            <div class="relative bg-white p-7 rounded-3xl border border-emerald-100 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1.5 overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-emerald-600 to-teal-500"></div>
+                <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-800 flex items-center justify-center text-2xl mb-5 shadow-xs group-hover:scale-110 transition-transform border border-emerald-100">
                     <i class="fas fa-shapes"></i>
                 </div>
-                <h3 class="text-lg font-black text-slate-800 mb-2 group-hover:text-blue-700 transition-colors">
+                <h3 class="font-display text-lg font-black text-slate-800 mb-2 group-hover:text-emerald-700 transition-colors">
                     Fasilitas Bermain Luas
                 </h3>
-                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-                    Area tanah sendiri 1.475 m² dengan taman bermain outdoor, perosotan, ayunan, dan 4 ruang kelas yang bersih &amp; nyaman.
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    Area tanah sendiri 1.475 m² dengan taman bermain outdoor, perosotan, ayunan, mangkok putar, serta 4 ruang kelas yang bersih &amp; nyaman.
                 </p>
             </div>
         </div>
 
         <!-- Banner Fasilitas Highlight Strip -->
-        <div class="bg-gradient-to-r from-emerald-900 via-teal-900 to-[#005A3C] rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8" data-aos="fade-up">
-            <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="bg-gradient-to-r from-emerald-950 via-[#064e3b] to-teal-950 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 border border-emerald-700/30" data-aos="fade-up">
+            <div class="absolute -right-10 -bottom-10 w-72 h-72 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none"></div>
             
             <div class="max-w-xl text-center md:text-left relative z-10">
-                <span class="inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 mb-3 shadow-xs">
+                <span class="inline-block px-3.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 mb-3 shadow-xs">
                     Ekosistem Belajar Nyaman
                 </span>
-                <h3 class="text-2xl sm:text-3xl font-black tracking-tight leading-snug">
+                <h3 class="font-display text-2xl sm:text-3xl font-black tracking-tight leading-snug">
                     Tumbuh Bersama Teman Ceria &amp; Guru yang Penuh Kasih
                 </h3>
-                <p class="text-emerald-100/90 text-sm mt-2 font-medium">
-                    Didukung 4 rombongan belajar (Kelompok A &amp; B), sarana sanitasi bersih, dan pengawasan ramah anak.
+                <p class="text-emerald-100/80 text-sm mt-2 font-normal leading-relaxed">
+                    Didukung 4 rombongan belajar (Kelompok A &amp; B), sarana sanitasi bersih, dan pengawasan ramah anak terpadu.
                 </p>
             </div>
 
-            <div class="flex flex-wrap gap-3 justify-center relative z-10">
-                <a href="/profil" class="inline-flex items-center gap-2 bg-white text-emerald-950 font-black px-6 py-3.5 rounded-2xl text-xs sm:text-sm shadow-md hover:bg-slate-100 transition-all">
+            <div class="flex flex-wrap gap-3.5 justify-center relative z-10 flex-shrink-0">
+                <a href="/profil" class="inline-flex items-center gap-2 bg-white text-emerald-950 font-black px-6 py-3.5 rounded-full text-xs sm:text-sm shadow-md hover:bg-slate-100 transition-all transform hover:-translate-y-0.5">
                     <i class="fas fa-info-circle text-emerald-700"></i>
-                    <span>Pelajari Profil &amp; Sejarah</span>
+                    <span>Profil &amp; Sejarah Sekolah</span>
                 </a>
-                <a href="/galeri" class="inline-flex items-center gap-2 bg-emerald-800/80 hover:bg-emerald-800 text-white font-bold px-6 py-3.5 rounded-2xl text-xs sm:text-sm border border-white/20 transition-all">
-                    <i class="fas fa-images text-amber-400"></i>
-                    <span>Lihat Dokumentasi Kegiatan</span>
+                <a href="/galeri" class="inline-flex items-center gap-2 bg-emerald-800/80 hover:bg-emerald-800 text-white font-bold px-6 py-3.5 rounded-full text-xs sm:text-sm border border-white/20 transition-all transform hover:-translate-y-0.5">
+                    <i class="fas fa-images text-amber-300"></i>
+                    <span>Dokumentasi Kegiatan</span>
                 </a>
             </div>
         </div>
@@ -424,20 +428,27 @@
 
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             @forelse($gurus as $index => $guru)
-                <div class="bg-slate-50/70 hover:bg-white rounded-3xl p-6 border border-slate-100 hover:border-emerald-200 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center group hover:-translate-y-1"
+                <div class="bg-white rounded-3xl p-6 border border-slate-100 hover:border-emerald-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center group hover:-translate-y-1.5"
                      data-aos="fade-up" data-aos-delay="{{ ($index % 4) * 100 }}">
                     
-                    <div class="relative w-24 h-24 mb-3 rounded-full overflow-hidden border-4 border-white shadow-md group-hover:border-emerald-200 transition-colors bg-emerald-50 flex-shrink-0">
-                        <img src="{{ $guru->foto_url }}" 
-                             alt="{{ $guru->nama }}" 
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                             loading="lazy"
-                             onerror="this.onerror=null;this.src='{{ asset('images/default-avatar.svg') }}';">
+                    <!-- Avatar with Dual-ring Frame -->
+                    <div class="relative w-24 h-24 mb-3.5 rounded-full p-1 bg-gradient-to-tr from-emerald-500 via-teal-400 to-amber-300 shadow-md group-hover:scale-105 transition-transform duration-300 flex-shrink-0">
+                        <div class="w-full h-full rounded-full overflow-hidden border-2 border-white bg-slate-50">
+                            <img src="{{ $guru->foto_url }}" 
+                                 alt="{{ $guru->nama }}" 
+                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                 loading="lazy"
+                                 onerror="this.onerror=null;this.src='{{ asset('images/default-avatar.svg') }}';">
+                        </div>
                     </div>
 
-                    <h3 class="text-base font-black text-slate-800 leading-snug group-hover:text-emerald-700 transition-colors line-clamp-1">
+                    <h3 class="font-display text-sm sm:text-base font-black text-slate-800 leading-snug group-hover:text-emerald-700 transition-colors line-clamp-1">
                         {{ $guru->nama }}
                     </h3>
+                    
+                    <span class="inline-block text-[11px] font-bold text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-100 mt-1.5">
+                        {{ $guru->jabatan ?: 'Tenaga Pendidik' }}
+                    </span>
 
                 </div>
             @empty
@@ -833,32 +844,41 @@
 </section>
 
 <!-- 8. PPDB & Konsultasi Call to Action Banner -->
-<section class="py-16 bg-gradient-to-r from-[#005A3C] via-[#006F4A] to-[#004B32] text-white relative overflow-hidden">
-    <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none"></div>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10" data-aos="fade-up">
+<section class="py-20 bg-gradient-to-b from-white via-emerald-50/40 to-slate-100/60 relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-aos="fade-up">
         
-        <span class="inline-block px-4 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-amber-400 text-slate-950 mb-4 shadow-sm">
-            Penerimaan Peserta Didik Baru (PPDB)
-        </span>
-        <h2 class="text-3xl sm:text-4xl font-black tracking-tight mb-4 leading-tight">
-            Mari Bergabung Bersama Keluarga Besar TK NU 04
-        </h2>
-        <p class="text-emerald-100 text-sm sm:text-base max-w-2xl mx-auto mb-8 font-medium">
-            Daftarkan putra-putri tercinta untuk memulai petualangan belajar yang ceria, penuh nilai kebaikan, dan berakhlakul karimah.
-        </p>
+        <div class="bg-gradient-to-r from-emerald-950 via-[#064e3b] to-teal-950 rounded-3xl sm:rounded-[2.5rem] p-8 sm:p-14 text-white text-center shadow-2xl relative overflow-hidden border border-emerald-700/40">
+            <!-- Ambient Glow -->
+            <div class="absolute -right-20 -top-20 w-80 h-80 bg-emerald-400/15 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
 
-        <div class="flex flex-wrap justify-center gap-4">
-            <a href="https://wa.me/6285334766072?text=Halo%20Admin%20TK%20NU%2004,%20saya%20ingin%20mendaftar%20atau%20bertanya%20mengenai%20syarat%20pendaftaran%20siswa%20baru." 
-               target="_blank" 
-               class="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black px-8 py-4 rounded-3xl text-sm sm:text-base shadow-xl transition-all transform hover:scale-105">
-                <i class="fab fa-whatsapp text-lg"></i>
-                <span>Hubungi Kami via WhatsApp</span>
-            </a>
-            <a href="/kontak" 
-               class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-7 py-4 rounded-3xl text-sm sm:text-base transition-all">
-                <i class="fas fa-map-location-dot"></i>
-                <span>Kunjungi Alamat Sekolah</span>
-            </a>
+            <div class="relative z-10 max-w-3xl mx-auto">
+                <span class="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-wider bg-amber-400 text-slate-950 mb-5 shadow-sm">
+                    <i class="fas fa-sparkles text-xs"></i> Penerimaan Peserta Didik Baru (PPDB)
+                </span>
+                
+                <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight mb-5 leading-tight text-white">
+                    Mari Bergabung Bersama Keluarga Besar TK NU 04 Situbondo
+                </h2>
+                
+                <p class="text-emerald-100/90 text-sm sm:text-base max-w-2xl mx-auto mb-9 font-normal leading-relaxed">
+                    Daftarkan putra-putri tercinta sekarang untuk memulai petualangan belajar yang ceria, penuh kasih sayang, dan berakhlakul karimah sejak usia emas.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6285334766072?text=Halo%20Admin%20TK%20NU%2004,%20saya%20ingin%20mendaftar%20atau%20bertanya%20mengenai%20syarat%20pendaftaran%20siswa%20baru." 
+                       target="_blank" 
+                       class="inline-flex items-center gap-2.5 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black px-8 py-4 rounded-full text-sm sm:text-base shadow-xl transition-all transform hover:-translate-y-0.5">
+                        <i class="fab fa-whatsapp text-lg"></i>
+                        <span>Konsultasi PPDB via WhatsApp</span>
+                    </a>
+                    <a href="/kontak" 
+                       class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/25 font-black px-7 py-4 rounded-full text-sm sm:text-base transition-all transform hover:-translate-y-0.5">
+                        <i class="fas fa-location-dot text-amber-300"></i>
+                        <span>Lokasi &amp; Denah Sekolah</span>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>
